@@ -1,0 +1,7 @@
+1. 编译
+https://blog.csdn.net/everysunset/article/details/76600024，其中，环境设置 
+https://blog.csdn.net/JarrettLife/article/details/51289470
+在vs2015中用qt插件尝试打开pro文件，虽然打开不了，但声称的sln文件盒proj文件，这时打开sln文件即可。
+2.使用：
+1）将编译完成的lib拷贝到当前工程目录
+2）将srcv/qftp目录下的h文件拷贝到工程目录（注意，不是include文件夹中的，因为里面的就是引用的src目录下的h文件）
