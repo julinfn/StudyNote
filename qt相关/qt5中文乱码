@@ -2,3 +2,8 @@
 #if _MSC_VER >= 1600
 #pragma execution_character_set("utf-8")
 #endif
+
+
+QString转const char*方法：
+QByteArray array = strJson.toLocal8Bit();
+const char* pszTemp=array.data();
