@@ -1,0 +1,2 @@
+1.如果配置第一台机器时未将directories和config-store设置为网络路径，需要将其设置为网络路径。但前提是要将directories目录的父目录arcgisserver设为共享目录，arcgis账户有读写权限。
+2.如果前一次安装了arcgis server不满足要求卸载重装了，设置arcgis server count时会发生错误，提示“invalid password”，此时需要在控制面板-用户账户中的“arcgis server”账户删除。
